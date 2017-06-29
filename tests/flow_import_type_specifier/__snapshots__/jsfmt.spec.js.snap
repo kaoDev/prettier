@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test.js 1`] = `
+/**
+ * @flow
+ */
+
+import { Foo, type Baz } from "../module";
+import type {} from 'foo';
+
+import type {somethingSuperLongsomethingSuperLong} from 'somethingSuperLongsomethingSuperLongsomethingSuperLong'
+import type {a, somethingSuperLongsomethingSuperLong} from 'somethingSuperLongsomethingSuperLongsomethingSuperLong'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/**
+ * @flow
+ */
+
+import { Foo, type Baz } from "../module";
+import type {} from "foo";
+
+import type { somethingSuperLongsomethingSuperLong } from "somethingSuperLongsomethingSuperLongsomethingSuperLong";
+import type {
+  a,
+  somethingSuperLongsomethingSuperLong
+} from "somethingSuperLongsomethingSuperLongsomethingSuperLong";
+
+`;
